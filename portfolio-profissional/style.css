@@ -513,4 +513,18 @@ img {
         0 0 12px rgba(255,255,255,0.25);
     animation: fadeIn 2s ease-out forwards;
 }
+/* 🔹 Força a cor ESCURA na seção Meus Serviços */
+#services .section-title h2 {
+    color: #111 !important;
+}
+
+#services .section-title p {
+    color: #555 !important;
+}
+
+/* 🔹 (opcional) Se tiver qualquer sombra indesejada */
+#services .section-title h2,
+#services .section-title p {
+    text-shadow: none !important;
+}
 
